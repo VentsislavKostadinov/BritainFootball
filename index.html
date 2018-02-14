@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/login.js"></script>
+    <script src="js/cookies.js"></script>
+
+
+</head>
+<body>
+
+<div class="header">
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+
+        <li class="dropdownChampionship">
+            <a href="javascript:void(0)" class="dropbtnChampionship">Championship</a>
+        <div class="dropdownChampionship-content">
+            <a href="./html/clubsChampionship.html">Clubs</a>
+            <a href="./html/clubsLeagueOne.html">Table</a>
+            <a href="./html/fixturesChampionship.html">Fixtures</a>
+        </div>
+        </li>
+
+        <li class="dropdownLeagueOne">
+            <a href="javascript:void(0)" class="dropbtnLeagueOne">League one</a>
+            <div class="dropdownLeagueOne-content">
+                <a href="./html/clubsChampionship.html">Clubs</a>
+               <a href="./html/tableLeagueOne.html">Table</a>
+                <a href="./html/fixturesLeagueOne.html">Fixtures</a>
+            </div>
+        </li>
+
+    </ul>
+</div>
+
+<div id="container">
+    <img class="slides" src="images/1.jpg" alt="1"/>
+    <img class="slides" src="images/2.jpg" alt="2"/>
+    <img class="slides" src="images/3.jpg" alt="3"/>
+    <img class="slides" src="images/4.jpg" alt="4"/>
+    <img class="slides" src="images/5.jpg" alt="5"/>
+    <img class="slides" src="images/6.jpg" alt="6"/>
+    <button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
+    <button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+</div>
+<script src="js/slider.js"></script>
+
+
+</body>
+</html>

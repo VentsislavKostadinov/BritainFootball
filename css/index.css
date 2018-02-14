@@ -1,0 +1,964 @@
+
+@font-face {
+
+    font-family: "New Cycle";
+    src: url('../font/NewsCycle-Regular.ttf') format('truetype');
+
+}
+body {
+
+    background: url("../images/door.jpg") no-repeat, center, center, fixed;
+    background-size: cover;
+
+}
+.header {
+
+    font-family: "New Cycle";
+    margin-top: -17px;
+    margin-left: 151px;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    background-color: black;
+}
+
+.header > ul :hover {
+
+    color: red;
+}
+
+.header > ul > li {
+
+    display: inline-block;
+
+    margin: 20px;
+    position: relative;
+    font-size: 26px;
+
+    text-align: center;
+}
+
+/*  dropdown Championship */
+
+.dropdownChampionship {
+    z-index: 99;
+    font-family: "New Cycle";
+}
+
+.dropbtnChampionship , li,  a {
+    display: inline-block;
+    color: white;
+    font-family: "New Cycle";
+    text-decoration: none;
+}
+
+.dropdownChampionship-content {
+
+    background-color: transparent;
+    font-family: "New Cycle";
+    width: 204px;
+    display: none;
+    position: absolute;
+    text-align: center;
+    left: -30px;
+}
+
+.dropdownChampionship-content a {
+
+
+    font-family: "New Cycle";
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    background-color: black;
+
+}
+
+.dropdownChampionship:hover .dropdownChampionship-content {
+    display: block;
+}
+
+/*  dropdown League One */
+
+.dropdownLeagueOne {
+    z-index: 99;
+}
+
+.dropbtnLeagueOne , li,  a {
+    display: inline-block;
+    color: white;
+    font-family: "New Cycle";
+    text-decoration: none;
+}
+
+.dropdownLeagueOne-content {
+
+    width: 180px;
+    display: none;
+    position: absolute;
+
+    font-family: "New Cycle";
+    text-align: center;
+    left: -31px;
+}
+
+.dropdownLeagueOne-content a {
+
+    color: white;
+    font-family: "New Cycle";
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    background-color: black;
+
+}
+
+.dropdownLeagueOne:hover .dropdownLeagueOne-content {
+    display: block;
+}
+
+/* Slider */
+
+#container {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+}
+
+#container > img {
+
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: -99;
+}
+
+#container > .btn {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    top: 315px;
+    background: transparent;
+    color: white;
+    font-size: 40px;
+
+}
+
+#container > #btn1:hover {
+    box-shadow: 2px 0px 20px 2px black;
+}
+
+#container > #btn2:hover {
+    box-shadow: 2px 0px 10px 2px black;
+}
+
+#container > #btn2 {
+
+    position: relative;
+    float: right;
+
+}
+
+/* clubs championship and league one */
+
+.clubs{
+
+    width: 80%;
+    height: 100%;
+    margin-left: 151px;
+}
+
+.clubs .img  {
+    margin: 10px;
+    display: inline-table;
+}
+
+.clubs .img:hover  {
+    border-bottom: 1px solid red;
+    color: red;
+
+}
+
+.clubs .img .desc  {
+    padding: 19px;
+    text-align: center;
+}
+
+/* Table Championship and League One */
+
+.tables {
+
+    width: 80%;
+    height: 100%;
+    margin-left: 151px;
+}
+
+.tables, table  {
+    width: 1183px;
+    height: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+
+.tables, table, td, th  {
+
+    padding: 6px;
+    font-family: "New Cycle";
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.tables tr:hover   {
+
+    background-color: red;
+}
+
+/* Fixtures */
+
+.fixtures1 {
+
+
+    color: red;
+    font-family: "New Cycle";
+    font-size: 15px;
+    margin-left: 160px;
+    margin-top: -11px;
+
+}
+
+.fixtures1 .fixtures {
+
+    float: left;
+    width: 280px;
+     margin: 7px;
+}
+
+
+
+.fixtures1 {
+    word-spacing: 3px;
+}
+
+/* Login */
+
+.login {
+
+    text-align: center;
+    color: white;
+    margin-top: 135px;
+
+    font-family: "New Cycle";
+    font-size: 26px;
+    margin-left: 250px;
+}
+
+.login, label {
+    margin-left: 250px;
+}
+
+.asterisk:after {
+
+    color: red;
+    content: " *";
+    display: inline;
+}
+
+.login .bbb {
+    margin-left: 250px;
+}
+
+.login, input[type=text], input[type=password], input[type=button] {
+
+    width: 40%;
+    padding: 12px 10px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.bbb {
+
+    width: 160px;
+    padding: 15px 32px;
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "New Cycle";
+    cursor: pointer;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.bbb:hover {
+
+    border: 1px solid white;
+    color: black;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+h2 {
+    color: white;
+}
+
+/* Responsive */
+
+@media only screen and(min-width: 980px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+        background: url("../images/door.jpg") no-repeat, center, center, fixed;
+        background-size: cover;
+
+    }
+
+    .header {
+        margin-left: 80px;
+    }
+
+    .header > ul > li {
+
+        margin: 12px;
+        font-size: 26px;
+
+
+    }
+
+    #container > img {
+
+        width: 100%;
+        height: 100%;
+        margin-left: 35px;
+    }
+
+    #container > .btn {
+
+
+    }
+
+    .dropdownChampionship-content a {
+        font-size: 26px;
+    }
+
+    .dropdownLeagueOne-content a {
+
+        font-size: 26px;
+    }
+
+    .clubs {
+
+        width: 90%;
+        height: 100%;
+        margin-left: 140px;
+
+    }
+
+    .clubs .img {
+
+        margin: 10px;
+        display: inline-table;
+
+    }
+
+    .clubs .img .desc  {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .tables {
+
+        width: 100%;
+        height: 800%;
+        margin-left: 1px;
+
+    }
+
+    .tables, table  {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    .tables, table, td, th  {
+
+        padding: 1px;
+        font-family: "New Cycle";
+        font-size: 22px;
+        color: white;
+    }
+
+    .fixtures1 {
+
+
+        font-family: "New Cycle";
+        font-size: 15px;
+        word-spacing: 3px;
+        color: red;
+        margin-left: 55px;
+    }
+
+    .fixtures1 .fixtures {
+
+        float: left;
+        width: 280px;
+        margin: 7px;
+    }
+
+    .login {
+
+        text-align: center;
+        color: white;
+        margin-top: 135px;
+        font-family: "New Cycle";
+        font-size: 17px;
+        margin-left: 250px;
+    }
+
+    .login, label {
+        margin-left: 50px;
+    }
+
+    .asterisk:after {
+
+        color: red;
+        content: " *";
+        display: inline;
+    }
+
+    .login .bbb {
+        margin-left: 50px;
+    }
+
+    .login, input[type=text], input[type=password], input[type=button] {
+
+        width: 70%;
+        padding: 12px 10px;
+        margin-left: 60px;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+
+    .bbb {
+
+        width: 160px;
+        padding: 15px 32px;
+        background-color: red;
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "New Cycle";
+        cursor: pointer;
+        border-radius: 3px;
+        letter-spacing: 1px;
+    }
+
+    .bbb:hover {
+
+        border: 1px solid white;
+        color: black;
+    }
+
+    input:invalid {
+        border: 2px solid red;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+        background: url("../images/door.jpg") no-repeat, center, center, fixed;
+        background-size: cover;
+
+    }
+
+    .header {
+        margin-left: 100px;
+    }
+
+    .header > ul > li {
+
+        margin: 12px;
+        font-size: 26px;
+
+
+    }
+
+    #container > img {
+
+        width: 100%;
+        height: 100%;
+        margin-left: 35px;
+    }
+
+    #container > .btn {
+    }
+
+    .dropdownChampionship-content a {
+        font-size: 26px;
+    }
+
+    .dropdownLeagueOne-content a {
+
+        font-size: 26px;
+    }
+
+    .clubs {
+        width: 90%;
+        height: 100%;
+        margin-left: 140px;
+    }
+
+    .clubs .img {
+
+        margin: 10px;
+        display: inline-table;
+    }
+
+    .clubs .img .desc  {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .tables {
+
+        width: 100%;
+        height: 100%;
+        margin-left: 1px;
+
+    }
+
+    .tables, table  {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    .tables, table, td, th  {
+
+        padding: 1px;
+        font-family: "New Cycle";
+        font-size: 22px;
+        color: white;
+    }
+
+    .fixtures1 {
+
+
+        font-family: "New Cycle";
+        font-size: 15px;
+        word-spacing: 3px;
+        color: red;
+        margin-left: 55px;
+    }
+
+    .fixtures1 .fixtures {
+
+        float: left;
+        width: 280px;
+        margin: 7px;
+    }
+
+    .login {
+
+        text-align: center;
+        color: white;
+        margin-top: 135px;
+        font-family: "New Cycle";
+        font-size: 17px;
+        margin-left: 250px;
+    }
+
+    .login, label {
+        margin-left: 50px;
+    }
+
+    .asterisk:after {
+
+        color: red;
+        content: " *";
+        display: inline;
+    }
+
+    .login .bbb {
+        margin-left: 50px;
+    }
+
+    .login, input[type=text], input[type=password], input[type=button] {
+
+        width: 70%;
+        padding: 12px 10px;
+        margin-left: 60px;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+
+    .bbb {
+
+        width: 160px;
+        padding: 15px 32px;
+        background-color: red;
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "New Cycle";
+        cursor: pointer;
+        border-radius: 3px;
+        letter-spacing: 1px;
+    }
+
+    .bbb:hover {
+
+        border: 1px solid white;
+        color: black;
+    }
+
+    input:invalid {
+        border: 2px solid red;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        width: 89%;
+        height: 100%;
+        background: url("../images/door.jpg") no-repeat, center, center, fixed;
+        background-size: cover;
+
+    }
+
+    .header {
+        margin-left:110px;
+    }
+
+    .header > ul > li {
+
+        margin: 12px;
+        font-size: 26px;
+
+
+    }
+
+    #container > img {
+
+        width: 100%;
+        height: 90%;
+        margin-left: 35px;
+    }
+
+    #container > .btn {
+
+        visibility: hidden;
+    }
+
+    .dropdownChampionship-content a {
+        font-size: 26px;
+    }
+
+    .dropdownLeagueOne-content a {
+
+        font-size: 26px;
+    }
+
+    .clubs {
+
+        width: 90%;
+        height: 100%;
+        margin-left: 140px;
+
+    }
+
+    .clubs .img {
+
+        margin: 10px;
+        display: inline-table;
+
+    }
+
+    .clubs .img .desc  {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .tables {
+
+        width: 100%;
+        height: 800%;
+        margin-left: 1px;
+
+    }
+
+    .tables, table  {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    .tables, table, td, th  {
+
+        padding: 1px;
+        font-family: "New Cycle";
+        font-size: 22px;
+        color: white;
+    }
+
+    .fixtures1 {
+
+
+        font-family: "New Cycle";
+        font-size: 16px;
+        word-spacing: 1px;
+        color: red;
+        margin-left: 55px;
+    }
+
+    .login {
+
+        text-align: center;
+        color: white;
+        margin-top: 135px;
+
+        font-family: "New Cycle";
+        font-size: 17px;
+        margin-left: 250px;
+    }
+
+    .login, label {
+        margin-left: 110px;
+    }
+
+    .asterisk:after {
+
+        color: red;
+        content: " *";
+        display: inline;
+    }
+
+    .login .bbb {
+        margin-left: 110px;
+    }
+
+    .login, input[type=text], input[type=password], input[type=button] {
+
+        width: 70%;
+        padding: 12px 10px;
+        margin-left: 90px;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+
+    .bbb {
+
+        width: 160px;
+        padding: 15px 32px;
+        background-color: red;
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "New Cycle";
+        cursor: pointer;
+        border-radius: 3px;
+        letter-spacing: 1px;
+    }
+
+    .bbb:hover {
+
+        border: 1px solid white;
+        color: black;
+    }
+
+    input:invalid {
+        border: 2px solid red;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        width: 89%;
+        height: 100%;
+        background: url("../images/door.jpg") no-repeat, center, center, fixed;
+        background-size: cover;
+
+    }
+
+    .header {
+        margin-left: 50px;
+    }
+
+    .header > ul > li {
+
+        margin: 5px;
+        font-size: 21px;
+
+
+    }
+
+    #container > img {
+
+        width: 80%;
+        height: 70%;
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+
+    #container > .btn {
+
+        visibility: hidden;
+    }
+
+    .dropdownChampionship-content a {
+        font-size: 21px;
+    }
+
+    .dropdownLeagueOne-content a {
+
+        font-size: 21px;
+    }
+
+    .clubs {
+
+        width: 80%;
+        height: 100%;
+        margin-left: 70px;
+
+    }
+
+    .clubs .img {
+
+        margin: 10px;
+        display: inline-table;
+
+    }
+
+    .clubs .img .desc  {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .tables {
+
+        width: 100%;
+        height: 800%;
+        margin-left: 1px;
+
+    }
+
+    .tables, table  {
+        width: 430px;
+        height: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    .tables, table, td, th  {
+
+        padding: 1px;
+        font-family: "New Cycle";
+        font-size: 18px;
+        color: white;
+    }
+
+    .fixtures1 {
+
+
+        font-family: "New Cycle";
+        font-size: 18px;
+        word-spacing: 3px;
+        color: red;
+        margin-left: 75px;
+    }
+
+    .login {
+
+        text-align: center;
+        color: white;
+        margin-top: 135px;
+
+        font-family: "New Cycle";
+        font-size: 17px;
+        margin-left: 250px;
+    }
+
+    .login, label {
+        margin-left: 10px;
+    }
+
+    .asterisk:after {
+
+        color: red;
+        content: " *";
+        display: inline;
+    }
+
+    .login .bbb {
+        margin-left: 60px;
+    }
+
+    .login, input[type=text], input[type=password], input[type=button] {
+
+        width: 70%;
+        padding: 12px 10px;
+        margin-left: 60px;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+
+    .bbb {
+
+        width: 160px;
+        padding: 15px 32px;
+        background-color: red;
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "New Cycle";
+        cursor: pointer;
+        border-radius: 3px;
+        letter-spacing: 1px;
+    }
+
+    .bbb:hover {
+
+        border: 1px solid white;
+        color: black;
+    }
+
+    input:invalid {
+        border: 2px solid red;
+    }
+}
